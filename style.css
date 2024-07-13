@@ -1,0 +1,145 @@
+#overlay {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+}
+#br {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 40px;
+}
+#architects {
+    margin-left: 10px;
+    font-size: 40px;
+}
+hr {
+    border-top: 0.5px solid rgba(0, 0, 0, 0);
+    margin: 20px;
+}
+#image-container {
+    padding: 20px;
+}
+#row1, #row2 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+#image2, #image3, #image4, #image5, #image6, #image7, #image8, #image9 {
+    position: relative;
+}
+#image2 img, #image3 img, #image4 img, #image5 img, #image6 img, #image7 img, #image8 img, #image9 img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#text1, #text2, #text3, #text4, #text5, #text6, #text7, #text8 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+#image-container-about {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    margin: 20px 0; 
+}
+.image-item {
+    flex: 1 1 calc(25% - 20px); 
+    box-sizing: border-box; 
+    text-align: left; 
+    margin-bottom: 20px; 
+    position: relative; 
+}
+.image-item img {
+    display: block;
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 10px; 
+}
+.image-item h2, .image-item p, .image-item b {
+    margin: 5px 0; 
+}
+.image-item h2 {
+    font-size: 24px; 
+}
+.image-item p {
+    font-size: 16px; 
+}
+.image-item b {
+    font-size: 16px; 
+}
+.contact {
+    display: block; 
+    margin: 20px auto; 
+    padding: 12px 24px; 
+    background-color: #A9A9A9; 
+    color: black; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    text-align: center; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+.contact:hover {
+    background-color: #808080; 
+}
+#name, #email, #subject, #comment {
+width: 100%; 
+padding: 10px; 
+
+}
+#button {
+    padding: 12px 24px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: black; 
+    color: white; 
+    font-size: 16px; 
+    cursor: pointer; 
+    text-align: center; 
+    width: auto; 
+    display: inline-block; 
+    box-sizing: border-box; 
+}
+#button:hover {
+    background-color: #333; 
+}
+#button:active {
+    background-color: #555; 
+}
+#black-background {
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+}
+#w3-link {
+    color: #f1f1f1; 
+    text-decoration: underline; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
